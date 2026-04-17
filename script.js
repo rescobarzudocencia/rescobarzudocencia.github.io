@@ -20,9 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
             // Formato: celda-fila-columna (ej: celda-2-5)
             celda.id = `${i}${j}`;
             
-           // celda.textContent = `${i},${j}`; 
-           celda.textContent = '   ';
-            fila.appendChild(celda);
+            celda.innerHTML = '&nbsp;';
+             fila.appendChild(celda);
         }
         
         tabla.appendChild(fila);
@@ -44,11 +43,13 @@ function celdas(){
           if(coordenada===e.target.id){
             e.target.classList.add('victoria');
              fin=false;
-              inento.textContent= 'Enhorabuena ha encontrado el tesoro ';
+              inento.innerHTML = '✨ ¡Tesoro Encontrado! ✨';
+              inento.style.background = 'var(--primary-color)';
+              inento.style.color = '#000';
           }else{
             e.target.classList.add('fallo');
             intentos_usuario = intentos_usuario -1;
-            inento.textContent= 'Numero de Intentos: ' + intentos_usuario.toString();
+            inento.textContent= 'Intentos restantes: ' + intentos_usuario.toString();
             let x_buscador=e.target.id[0];
             let y_buscador=e.target.id[1];
             if (parseInt(x_buscador)<parseInt(x) && parseInt(y_buscador) === parseInt(y) ){
@@ -69,7 +70,9 @@ function celdas(){
               rosa_vientos.src='nordeste.png';
             }
             if(intentos_usuario===0){
-              inento.textContent= 'Ha llegado al limite de intentos ';
+              inento.textContent= '💀 Misión Fallida: Sin intentos';
+              inento.style.background = '#8b0000';
+              inento.style.color = '#fff';
               fin=false;
             }
 
