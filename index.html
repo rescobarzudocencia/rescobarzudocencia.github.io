@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <div class="bg-blobs">
         <div class="blob blob-1"></div>
@@ -26,7 +28,8 @@
                 <h2><span>01.</span> ASIR</h2>
                 <ul class="module-list">
                     <li class="module-item">
-                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/par/README.md" target="_blank">
+                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/par/README.md"
+                            target="_blank">
                             <div class="module-info">
                                 <span class="module-id">1.1</span>
                                 <span class="module-name">Planificación y Administración de Redes</span>
@@ -42,7 +45,8 @@
                 <h2><span>02.</span> SMR</h2>
                 <ul class="module-list">
                     <li class="module-item">
-                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/redes_locales/README.md" target="_blank">
+                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/redes_locales/README.md"
+                            target="_blank">
                             <div class="module-info">
                                 <span class="module-id">2.1</span>
                                 <span class="module-name">Redes Locales</span>
@@ -51,7 +55,8 @@
                         </a>
                     </li>
                     <li class="module-item">
-                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/seguridad_inf/README.md" target="_blank">
+                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/seguridad_inf/README.md"
+                            target="_blank">
                             <div class="module-info">
                                 <span class="module-id">2.2</span>
                                 <span class="module-name">Seguridad Informática</span>
@@ -67,7 +72,8 @@
                 <h2><span>03.</span> DAW</h2>
                 <ul class="module-list">
                     <li class="module-item">
-                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/lm/README.md" target="_blank">
+                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/lm/README.md"
+                            target="_blank">
                             <div class="module-info">
                                 <span class="module-id">3.1</span>
                                 <span class="module-name">Lenguajes de Marcas</span>
@@ -76,7 +82,8 @@
                         </a>
                     </li>
                     <li class="module-item">
-                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/si/README.md" target="_blank">
+                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/si/README.md"
+                            target="_blank">
                             <div class="module-info">
                                 <span class="module-id">3.2</span>
                                 <span class="module-name">Sistemas Informáticos</span>
@@ -85,7 +92,8 @@
                         </a>
                     </li>
                     <li class="module-item">
-                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/despliegue/README.md" target="_blank">
+                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/despliegue/README.md"
+                            target="_blank">
                             <div class="module-info">
                                 <span class="module-id">3.3</span>
                                 <span class="module-name">Despliegue de aplicaciones web</span>
@@ -94,7 +102,8 @@
                         </a>
                     </li>
                     <li class="module-item">
-                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/python/README.md" target="_blank">
+                        <a href="https://github.com/rescobarzudocencia/modulos_docencia/blob/main/python/README.md"
+                            target="_blank">
                             <div class="module-info">
                                 <span class="module-id">3.4</span>
                                 <span class="module-name">Optativa: Python</span>
@@ -107,26 +116,11 @@
         </main>
 
         <footer>
-            <p>&copy; 2026 Rescobarzu Docencia. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Rafael Ernesto Escobar Zurita. Todos los derechos reservados.</p>
         </footer>
     </div>
 
-    <script>
-        const observerOptions = {
-            threshold: 0.1
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.cycle-section').forEach(section => {
-            observer.observe(section);
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
+
 </html>
