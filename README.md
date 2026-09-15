@@ -9,6 +9,10 @@
    
     [2.2. Seguridad Informática](https://github.com/rescobarzudocencia/modulos_docencia/blob/seguridad_inf/README.md)
 
+     [2.3. Aplicaciones Web](https://github.com/rescobarzudocencia/modulos_docencia/blob/apWeb/README.md)
+
+     [2.4. Optativa : Diseño Web](https://github.com/rescobarzudocencia/modulos_docencia/blob/disenoWeb/README.md)
+
 3. DAW
    
     [3.1. Lenguajes de Marcas](https://github.com/rescobarzudocencia/modulos_docencia/blob/main/lm/README.md)
@@ -20,6 +24,8 @@
     [3.4. Bases de Datos](https://github.com/rescobarzudocencia/modulos_docencia/blob/main/bd/README.md)
 
     [3.5. Optativa: Python](https://github.com/rescobarzudocencia/modulos_docencia/blob/main/python/README.md)
+
+     [3.6. Diseño de Interfaces WEB](https://github.com/rescobarzudocencia/modulos_docencia/blob/main/diw/README.md)
     
 ---
 
