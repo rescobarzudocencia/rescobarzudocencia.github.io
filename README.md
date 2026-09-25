@@ -25,7 +25,7 @@
 
     [3.5. Optativa: Python](https://github.com/rescobarzudocencia/modulos_docencia/blob/main/python/README.md)
 
-     [3.6. Diseño de Interfaces WEB](https://github.com/rescobarzudocencia/modulos_docencia/blob/main/diw/README.md)
+    [3.6. Diseño de Interfaces WEB](https://github.com/rescobarzudocencia/modulos_docencia/blob/main/diw/README.md)
     
 ---
 
